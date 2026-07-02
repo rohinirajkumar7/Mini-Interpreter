@@ -227,7 +227,7 @@ Contributions are welcome! To contribute:
 5. Open a Pull Request
 
 
-## 🗺️ Future Roadmap
+##  Future Roadmap
 
 - [ ] Add string manipulation functions
 - [ ] Implement arrays and data structures
