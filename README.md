@@ -2,7 +2,7 @@
 
 A fully-functional interpreter for MiniLang - a custom programming language built with Java, ANTLR4, and Maven. This project demonstrates compiler design principles including lexical analysis, parsing, AST construction, semantic analysis, and runtime execution.
 
-## 🚀 Features
+##  Features
 
 - **Variables & Assignments**: Declare and modify variables with `let` keyword
 - **Arithmetic Operations**: Support for `+`, `-`, `*`, `/` with proper operator precedence
@@ -15,13 +15,13 @@ A fully-functional interpreter for MiniLang - a custom programming language buil
 - **Interactive REPL**: Read-Eval-Print Loop for interactive programming
 - **Error Handling**: Division by zero protection, undefined variable detection, argument count validation
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - **Java 17** or higher
 - **Apache Maven 3.6+**
 - **ANTLR 4.13.0** (automatically managed by Maven)
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone the Repository
 
@@ -40,7 +40,7 @@ This will:
 - Generate ANTLR parser files from the grammar
 - Compile all Java sources
 
-## 🎯 Usage
+##  Usage
 
 ### Running MiniLang Files
 
@@ -66,7 +66,7 @@ print(x + y);
 exit
 
 
-## 📝 Language Syntax
+##  Language Syntax
 
 ### Variable Declaration
 
@@ -107,7 +107,7 @@ let comparison = (x >= 10) && (y < 20);
 let negation = !flag;
 
 
-## 📂 Project Structure
+##  Project Structure
 ```
 MiniLang/
 ├─ pom.xml
@@ -146,7 +146,7 @@ MiniLang/
 ```
 
 
-## 🏗️ Architecture
+##  Architecture
 
 ### 1. **Lexical Analysis (ANTLR Lexer)**
 Tokenizes input source code into meaningful symbols.
@@ -179,7 +179,7 @@ Executes the AST using a tree-walking interpreter with dynamic type evaluation.
 - Block statements create new scopes except at REPL top-level
 - While loops evaluated with condition at each iteration
 
-## 🎓 Example Programs
+##  Example Programs
 
 ### Recursive Fibonacci
 
@@ -202,7 +202,7 @@ i = i + 1;
 print(sum); // Output: 5050
 
 
-## 🐛 Debugging
+##  Debugging
 
 ### Enable Maven Debug Output
 
@@ -216,7 +216,7 @@ ls target/generated-sources/antlr4/com/minilang/parser/
 
 Should contain: `MiniLangLexer.java`, `MiniLangParser.java`, `MiniLangBaseVisitor.java`
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! To contribute:
 
@@ -226,19 +226,6 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- **ANTLR4** by Terence Parr for the powerful parser generator
-- **Apache Maven** for dependency management
-- Compiler design principles from *Crafting Interpreters* by Robert Nystrom
-
-## 📧 Contact
-
-Email- rohini.rajkumar7@gmail.com
 
 ## 🗺️ Future Roadmap
 
@@ -250,6 +237,4 @@ Email- rohini.rajkumar7@gmail.com
 - [ ] Add static type checking
 - [ ] Create VS Code syntax highlighting extension
 
----
 
-**Built with ❤️ using Java 17, ANTLR4, and Maven**
