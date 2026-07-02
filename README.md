@@ -25,7 +25,7 @@ A fully-functional interpreter for MiniLang - a custom programming language buil
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/mini-interpreter.git
+git clone https://github.com/rohinirajkumar7/mini-interpreter.git
 cd mini-interpreter
 
 
